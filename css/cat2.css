@@ -1,0 +1,98 @@
+body {
+    background-color: rgba(138, 210, 223,0.5);
+    border-radius: 10px;
+}
+
+.cont-general {
+    width: 100%;
+    position:relative;
+    display:flex;
+    margin:auto;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 320px;
+}
+
+.titulo {
+    font-size:35px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.img-1 {
+    width:200px;
+    position:relative;
+    display: block;
+    border-radius: 10px;
+}
+
+.name {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display:block;
+    font-weight: bold;
+    text-align: center;
+    margin: 4%;
+}
+
+
+
+.price {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display:block;
+    font-weight: bold;
+    text-align: center;
+    margin: 4%;
+}
+
+
+.cont-cat1 {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+    margin-bottom: 10px;
+    background:rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}
+
+
+.cont-cat1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    border-style: solid;
+    border-color:deeppink;
+    border-width: 1px;
+    color:deeppink;
+    transition: all .2s;
+}
+
+.cont-cat1:active {
+    opacity: 0.5;
+}
+
+.week1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin:0;
+   
+}
+
+
+@media (max-width: 768px) {
+    .cont-cat1 {
+        margin-left:140px;
+        margin-right: 35px;
+        margin-bottom: 13px;
+        margin-top: 16px;
+
+    }
+}

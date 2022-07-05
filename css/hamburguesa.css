@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nav-img {
+    width: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background:rgba(0, 0, 0, 0.7);
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;   
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-logo {
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-container {
+    display: flex;
+    margin:0 auto;
+    padding: 10px;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-label, .nav-input {
+    display: none;
+}
+
+.nav-item {
+    color:#fff;
+    margin: 0px;
+    text-decoration: none;
+    justify-content: space-between;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.nav-menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+}
+
+.nav-item::after {
+    content:"" ;
+    display: block;
+    background: deeppink;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path .3s;
+}
+
+.nav-item:hover {
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    color: deeppink;
+    transition: .4s;
+}
+
+.nav-input:checked + .nav-menu {
+    background-color:rgba(0, 0, 0,0.8);
+}
+
+
+
+body {
+    color: #fff;
+}

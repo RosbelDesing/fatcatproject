@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background:url(portada2.jpg) center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    position:relative;
+    display:block;
+}
+
+
+.capa {
+    width: 100%;
+    height: 800px;
+    background:rgb(43, 167, 184);
+    opacity: 0.3;
+    background-size: cover;
+    background-attachment:fixed;
+
+
+}
+
+.txt {
+    color:#fff;
+}

@@ -1,0 +1,55 @@
+.cont-redes {
+    height: 160px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px;
+}
+
+.follow {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-twitter {
+    width: 60px;
+    margin: 5px;
+}
+
+.img-instagram {
+    width: 60px;
+    margin: 5px;
+}
+
+.img-discord {
+    width: 60px;
+    margin: 5px;
+}
+
+.img-twitter:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.img-instagram:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.img-discord:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.iconos {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.iconos li {
+    display: inline-block;
+}
+
